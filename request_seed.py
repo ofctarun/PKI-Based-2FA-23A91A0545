@@ -56,7 +56,7 @@ def get_seed():
             print(response.text)
             
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred:{e}")
 
 if __name__ == "__main__":
     get_seed()
