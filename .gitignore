@@ -1,0 +1,20 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+
+# Sensitive/Local Data
+encrypted_seed.txt
+decrypted_seed_test.txt
+data/
+seed.txt
+cron/last_code.txt
+
+# IDE settings
+.vscode/
+.idea/
