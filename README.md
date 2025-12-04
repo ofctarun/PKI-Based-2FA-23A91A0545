@@ -41,7 +41,9 @@ PKI-Based-2FA-23A91A0545/
 ├── student_public.pem       # Your RSA Public Key
 └── student_private.pem      # Your RSA Private Key (Keep Secure!)
 
-⚙️ Setup & Installation
+---
+
+## ⚙️ Setup & Installation
 1. Clone the Repository
 Bash
 
@@ -57,7 +59,9 @@ The API will start on http://localhost:8080.
 
 The cron job will start automatically in the background.
 
-🔌 API Documentation
+---
+
+## 🔌 API Documentation
 1. Initialize Seed (POST /decrypt-seed)
 Uploads the encrypted seed to the server. The server decrypts it using the private key and stores it securely in the volume.
 
@@ -106,7 +110,10 @@ Bash
 curl -X POST http://localhost:8080/verify-2fa \
   -H "Content-Type: application/json" \
   -d '{"code": "123456"}'
-🧪 Testing & Verification
+
+---
+
+## 🧪 Testing & Verification
 1. Run Local Tests
 You can run the included Python test scripts to verify logic without Docker:
 
@@ -128,5 +135,7 @@ Bash
 docker compose exec app cat /cron/last_code.txt
 You should see timestamps and codes logged every minute.
 
-📜 License
+---
+
+## 📜 License
 This project is part of a secure coding challenge. Private keys are for demonstration purposes only.
