@@ -1,3 +1,6 @@
 cryptography
 requests
 pyotp
+fastapi
+uvicorn
+pydantic
