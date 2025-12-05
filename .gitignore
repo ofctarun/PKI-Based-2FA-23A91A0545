@@ -11,10 +11,8 @@ venv/
 # Sensitive/Local Data
 encrypted_seed.txt
 decrypted_seed_test.txt
-data/
-seed.txt
 cron/last_code.txt
-submission_proof.txt
+submission_proof
 
 # IDE settings
 .vscode/
